@@ -68,10 +68,10 @@
         return;
       }
 
-      fetch(`${apiUrl}${city}&appid=${apiKey}`)
+      fetch(`${apiUrl}+${city}+&appid=${apiKey}`)
         .then(response => response.json())
         .then(data => {
-          const temperature = data.main.temp;
+          const temperature = Math.round(data.main.temp - 273.);
           const cityName = data.name;
 
           document.getElementById("weather").innerHTML = `Current Temperature in ${cityName}: ${temperature}°C`;
