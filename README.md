@@ -8,7 +8,7 @@ This Weather Widget is a simple web application that allows users to get the cur
 - Stylish Design: The widget has a visually appealing design with a yellow-themed weather container, contrasting buttons, and clear typography.
 - Responsive Design: The layout is responsive and adapts well to different screen sizes, making it accessible across various devices.
 - Real-time Weather Data: The widget fetches real-time weather data using the OpenWeatherMap API, displaying the current temperature of the specified city.
-- **Error Handling:** It includes basic error handling to alert users if they forget to enter a city before requesting weather information.
+- Error Handling:** It includes basic error handling to alert users if they forget to enter a city before requesting weather information.
 
 ## Setup and Usage
 1. API Key: Obtain an API key from [OpenWeatherMap](https://openweathermap.org/) by signing up for a free account.
